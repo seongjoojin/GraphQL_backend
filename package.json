@@ -2,11 +2,19 @@
   "name": "GraphQL_backend",
   "version": "1.0.0",
   "description": "Movie API with Graphql",
-  "main": "https://github.com/seongjoojin/GraphQL_backend",
+  "main": "index.js",
   "repository": "https://seongjoojin@github.com/seongjoojin/GraphQL_backend.git",
   "author": "jinseongjoo <qpyou1234@naver.com>",
   "license": "MIT",
   "dependencies": {
     "graphql-yoga": "^1.15.1"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
   }
 }
