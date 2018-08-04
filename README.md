@@ -34,3 +34,9 @@ babel 라이브러리 설치
 ```js
 yarn add babel-cli babel-preset-env babel-preset-stage-3 --dev
 ```
+
+## GraphQL 정의 된 세 종류의 형식
+
+- Query
+- Mutation
+- Subscription
