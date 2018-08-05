@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/Cellar/yarn/1.9.2/libexec/bin/yarn.js add node-fetch
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.9.2/libexec/bin/yarn.js add axios
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/bin
@@ -26,7 +26,8 @@ npm manifest:
     "author": "jinseongjoo <qpyou1234@naver.com>",
     "license": "MIT",
     "dependencies": {
-      "graphql-yoga": "^1.15.1"
+      "graphql-yoga": "^1.15.1",
+      "node-fetch": "^2.2.0"
     },
     "scripts": {
       "start": "nodemon --exec babel-node index.js"
@@ -1691,6 +1692,10 @@ Lockfile:
   node-fetch@2.0.0:
     version "2.0.0"
     resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.0.0.tgz#982bba43ecd4f2922a29cc186a6bbb0bb73fcba6"
+  
+  node-fetch@^2.2.0:
+    version "2.2.0"
+    resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.2.0.tgz#4ee79bde909262f9775f731e3656d0db55ced5b5"
   
   node-pre-gyp@^0.10.0:
     version "0.10.3"
