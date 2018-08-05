@@ -40,3 +40,7 @@ yarn add babel-cli babel-preset-env babel-preset-stage-3 --dev
 - Query
 - Mutation
 - Subscription
+
+## 추가로 설치한 라이브러리들
+
+- node-fetch
