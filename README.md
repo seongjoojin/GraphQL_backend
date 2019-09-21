@@ -1,4 +1,7 @@
 # GraphQL_backend
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/seongjoojin/GraphQL_backend.svg)](https://greenkeeper.io/)
+
 GraphQL으로 영화API 만들기
 
 https://academy.nomadcoders.co/p/make-a-movie-api-with-graphql-and-nodejs-super-begginner/
